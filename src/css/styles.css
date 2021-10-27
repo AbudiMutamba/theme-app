@@ -1,0 +1,61 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height: 100vh;
+}
+
+.btn { 
+    border: none;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transition: all .5ms ease-in-out;
+    border: 2px solid #ffff;
+    margin: 10px;
+}
+
+.btn:hover {
+    width: 48px;
+    height: 48px;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.red{
+    background-color: red;
+}
+.red h1 {color: #fff}
+
+.black {
+    background-color: black;
+}
+.black h1 {color: #fff}
+
+.blue{
+    background-color: blue;
+}
+.blue h1 {color: rgb(255, 255, 255)}
+
+.yellow{
+    background-color: yellow;
+}
+.yellow h1 {color: #000}
+
